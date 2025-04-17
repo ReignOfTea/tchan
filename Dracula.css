@@ -1,0 +1,110 @@
+body {
+    color: #f8f8f2;
+    background-color: #282a36;
+}
+
+a:link,
+a:visited,
+.intro a.email span.name {
+    color: #8be9fd;
+}
+
+a:link:hover {
+    color: #ff79c6;
+}
+
+a.post_no {
+    color: #f8f8f2;
+}
+
+div.post.reply {
+    background: #44475a;
+    border-color: #6272a4;
+}
+
+div.post.reply.highlighted {
+    background: #4d5473;
+    border-color: #6272a4;
+}
+
+div.post.reply div.body a {
+    color: #8be9fd;
+}
+
+.intro span.subject {
+    color: #ff79c6;
+}
+
+form table tr th {
+    background: #44475a;
+    color: #f8f8f2;
+    border: 1px solid #6272a4;
+}
+
+textarea,
+input:not([type="file"]):not([type="checkbox"]) {
+    background: #282a36;
+    color: #f8f8f2;
+    border: 1px solid #6272a4;
+}
+
+textarea:focus,
+input:not([type="file"]):not([type="checkbox"]):focus,
+[type="submit"]:hover {
+    border: 1px solid #ff79c6;
+}
+
+div.ban h2 {
+    background: #ff5555;
+    color: #f8f8f2;
+}
+
+div.ban {
+    border-color: #ff5555;
+}
+
+div.ban p {
+    color: #f8f8f2;
+}
+
+.bar {
+    background-color: #44475a;
+    border-color: #6272a4 !important;
+    -moz-box-shadow: 0 0 40px #44475a;
+    -webkit-box-shadow: 0 0 40px #44475a;
+    box-shadow: 0 0 40px #44475a;
+}
+
+div.pages {
+    background: #44475a;
+    border-color: #6272a4;
+}
+
+div.pages a.selected {
+    color: #f1fa8c;
+}
+
+hr {
+    border-color: #6272a4;
+}
+
+div.boardlist {
+    color: #6272a4;
+}
+
+div.boardlist a {
+    color: #8be9fd;
+}
+
+table.modlog tr th {
+    background: #44475a;
+}
+
+#options_div,
+#alert_div {
+    background: #44475a;
+}
+
+.desktop-style div.boardlist:nth-child(1) {
+    background-color: #44475a;
+}

@@ -1,0 +1,103 @@
+body {
+    background: #1d1f21 color: #c5c8c6;
+}
+
+a:link,
+a:visited,
+.intro a.email span.name {
+    color: #81a2be;
+}
+
+a:link:hover {
+    color: #cc6666;
+}
+
+a.post_no {
+    color: #c5c8c6;
+}
+
+div.post.reply {
+    background: #282a2e;
+    border-color: #373b41;
+}
+
+div.post.reply.highlighted {
+    background: #303338;
+    border-color: #373b41;
+}
+
+div.post.reply div.body a {
+    color: #8abeb7;
+}
+
+.intro span.subject {
+    color: #cc6666;
+}
+
+form table tr th {
+    background: #373b41;
+    color: #c5c8c6;
+    border: 1px solid #4b5056;
+}
+
+textarea:focus,
+input:not([type="file"]):not([type="checkbox"]):focus,
+[type="submit"]:hover {
+    border: 1px solid #81a2be;
+}
+
+div.ban h2 {
+    background: #cc6666;
+    color: #e0e0e0;
+}
+
+div.ban {
+    border-color: #cc6666;
+}
+
+div.ban p {
+    color: #c5c8c6;
+}
+
+.bar {
+    background-color: #282a2e;
+    border-color: #373b41 !important;
+    -moz-box-shadow: 0 0 40px #373b41;
+    -webkit-box-shadow: 0 0 40px #373b41;
+    box-shadow: 0 0 40px #373b41;
+}
+
+div.pages {
+    background: #282a2e;
+    border-color: #373b41;
+}
+
+div.pages a.selected {
+    color: #f0c674;
+}
+
+hr {
+    border-color: #373b41;
+}
+
+div.boardlist {
+    color: #969896;
+}
+
+div.boardlist a {
+    color: #81a2be;
+}
+
+table.modlog tr th {
+    background: #373b41;
+}
+
+/* options.js */
+#options_div,
+#alert_div {
+    background: #282a2e;
+}
+
+.desktop-style div.boardlist:nth-child(1) {
+    background-color: #282a2e;
+}

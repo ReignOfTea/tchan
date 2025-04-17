@@ -1,0 +1,137 @@
+body {
+    background: #0b0b19 color: #e0dfe1;
+    text-shadow: 0 0 2px rgba(255, 106, 213, 0.4);
+}
+
+a:link,
+a:visited,
+.intro a.email span.name {
+    color: #0ef0f0;
+    text-shadow: 0 0 4px rgba(14, 240, 240, 0.6);
+}
+
+a:link:hover {
+    color: #ff6ad5;
+    text-shadow: 0 0 5px rgba(255, 106, 213, 0.8);
+}
+
+a.post_no {
+    color: #e0dfe1;
+    text-shadow: 0 0 3px rgba(224, 223, 225, 0.5);
+}
+
+div.post.reply {
+    background: rgba(30, 24, 45, 0.85);
+    border: 1px solid #ff6ad5;
+    box-shadow: 0 0 10px rgba(255, 106, 213, 0.4);
+}
+
+div.post.reply.highlighted {
+    background: rgba(40, 34, 55, 0.85);
+    border: 1px solid #ff6ad5;
+    box-shadow: 0 0 15px rgba(255, 106, 213, 0.6);
+}
+
+div.post.reply div.body a {
+    color: #0ef0f0;
+    text-shadow: 0 0 4px rgba(14, 240, 240, 0.6);
+}
+
+.intro span.subject {
+    color: #ff6ad5;
+    text-shadow: 0 0 4px rgba(255, 106, 213, 0.8);
+    font-weight: bold;
+}
+
+form table tr th {
+    background: linear-gradient(to right, #ff6ad5, #0ef0f0);
+    color: #0b0b19;
+    border: 1px solid #ff6ad5;
+    text-shadow: none;
+}
+
+textarea,
+input:not([type="file"]):not([type="checkbox"]) {
+    background: rgba(30, 24, 45, 0.7);
+    color: #e0dfe1;
+    border: 1px solid #ff6ad5;
+}
+
+textarea:focus,
+input:not([type="file"]):not([type="checkbox"]):focus,
+[type="submit"]:hover {
+    border: 1px solid #0ef0f0;
+    box-shadow: 0 0 8px #0ef0f0;
+}
+
+[type="submit"] {
+    background: linear-gradient(to right, #ff6ad5, #0ef0f0);
+    color: #0b0b19;
+    border: none;
+    font-weight: bold;
+}
+
+div.ban h2 {
+    background: linear-gradient(to right, #ff6ad5, #c15de6);
+    color: #0b0b19;
+    text-shadow: none;
+}
+
+div.ban {
+    border-color: #ff6ad5;
+    box-shadow: 0 0 10px rgba(255, 106, 213, 0.5);
+}
+
+div.ban p {
+    color: #e0dfe1;
+}
+
+.bar {
+    background: rgba(30, 24, 45, 0.85);
+    border: 1px solid #ff6ad5 !important;
+    box-shadow: 0 0 20px rgba(255, 106, 213, 0.5);
+}
+
+div.pages {
+    background: rgba(30, 24, 45, 0.85);
+    border: 1px solid #ff6ad5;
+}
+
+div.pages a.selected {
+    color: #f9f871;
+    text-shadow: 0 0 5px rgba(249, 248, 113, 0.8);
+}
+
+hr {
+    border-color: #ff6ad5;
+    box-shadow: 0 0 5px #ff6ad5;
+}
+
+div.boardlist {
+    color: #c15de6;
+    text-shadow: 0 0 3px rgba(193, 93, 230, 0.6);
+}
+
+div.boardlist a {
+    color: #0ef0f0;
+    text-shadow: 0 0 4px rgba(14, 240, 240, 0.6);
+}
+
+table.modlog tr th {
+    background: linear-gradient(to right, #ff6ad5, #0ef0f0);
+    color: #0b0b19;
+    text-shadow: none;
+}
+
+/* options.js */
+#options_div,
+#alert_div {
+    background: rgba(30, 24, 45, 0.9);
+    border: 1px solid #ff6ad5;
+    box-shadow: 0 0 15px rgba(255, 106, 213, 0.5);
+}
+
+.desktop-style div.boardlist:nth-child(1) {
+    background: rgba(30, 24, 45, 0.85);
+    border-bottom: 1px solid #ff6ad5;
+}
