@@ -1,4 +1,5 @@
 body {
+    background: #1e1e2e;
     color: #cdd6f4;
 }
 
@@ -99,7 +100,6 @@ table.modlog tr th {
     background: #313244;
 }
 
-/* options.js */
 #options_div,
 #alert_div {
     background: #313244;
